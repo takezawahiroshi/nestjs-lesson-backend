@@ -11,7 +11,7 @@ async function bootstrap() {
   app.enableCors({
     credentials: true,
     origin: [
-      'http://localhost:3000',
+      'http://localhost:3000','https://nestjs-lesson-frontend-khnl9rdn5-takezawahiroshi.vercel.app',
     ],
   });
   app.use(cookieParser());
